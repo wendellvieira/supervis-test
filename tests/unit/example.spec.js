@@ -1,0 +1,2 @@
+describe('MyComponent.vue', () => {
+});
