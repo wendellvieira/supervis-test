@@ -4,10 +4,10 @@
     :class="btnClass"
     :disabled="disabled"
   >
-    <slot v-if="$slots.icon || icon" name="icon">
+    <slot v-if="$slots.iconLeft || icon" name="iconLeft">
       <i class="icon material-icons">{{ icon }}</i>
     </slot>
-    <slot v-if="$slots.label || label" name="label">
+    <slot v-if="($slots.btnLabel || label) && !round" name="btnLabel">
       <span>{{ label }}</span>
     </slot>
   </button>

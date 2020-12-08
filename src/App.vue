@@ -20,18 +20,3 @@ export default {
   },
 }
 </script>
-<style lang="scss">
-body {
-  margin: 0;
-  padding: 0;
-}
-#app {
-  background-color: #26242a;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-</style>
